@@ -12,3 +12,5 @@ paginate:       20
 paginate_path: "/fatwas/:num/"
 markdown:       kramdown
 remote_theme:  creativetimofficial/material-kit
+include:
+  - _pages
