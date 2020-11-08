@@ -14,3 +14,14 @@ markdown:       kramdown
 remote_theme:  creativetimofficial/material-kit
 include:
   - _pages
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - .gitignore
+  - Gemfile.lock
